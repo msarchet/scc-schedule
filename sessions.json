@@ -1,15 +1,15 @@
 {
-	times: [
-		{ start: "08:30:00", length: "60" },
-		{ start: "09:45:00", length: "60" },
-		{ start: "11:00:00", length: "30" },
-		{ start: "11:45:00", length: "60" },
-		{ start: "13:00:00", length: "60" },
-		{ start: "14:15:00", length: "60" },
-		{ start: "15:30:00", length: "60" },
-		{ start: "16:45:00", length: "15" }
+	"times": [
+		{ "start": "08:30:00", "length": "60" },
+		{ "start": "09:45:00", "length": "60" },
+		{ "start": "11:00:00", "length": "30" },
+		{ "start": "11:45:00", "length": "60" },
+		{ "start": "13:00:00", "length": "60" },
+		{ "start": "14:15:00", "length": "60" },
+		{ "start": "15:30:00", "length": "60" },
+		{ "start": "16:45:00", "length": "15" }
 	],
-	sessions:
+	"sessions":
 	[
 		[
 			{"Speaker":"Jeremy Foster","Title":"Angular.js Apps on Windows and Windows Phone","Room":"Pigott 100"},

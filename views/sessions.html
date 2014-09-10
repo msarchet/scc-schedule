@@ -1,0 +1,8 @@
+<div>
+  <label for="time">Time:</label>
+  <select id="time" ng-model="selectedTime" ng-options="time.start for time in sc.times" ng-change="sc.onTimeChange(selectedTime)" />
+  </select>
+  <ul>
+    <li ng-repeat="s in sc.sessions">{{s.Title}} - {{s.Speaker}} ({{s.Room}})</li>
+  </ul>
+</div>
